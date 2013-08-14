@@ -52,9 +52,14 @@ V = SaVe to EEPROM
 Note:  This is more of a starter program than a polished contrller.  It does have a true timer 
 interrupt step generator that can be the basis of a more comprehensive program.
 
+For a low cost camera slider rig try this one.
+
+https://www.inventables.com/projects/simple-camera-slider
+
 The program is currently compatible with these (2) driver shields
 
 http://www.reactivesubstance.com/shop.html (recommended)
+
 http://imall.iteadstudio.com/im120417015.html (not recommended...overheats)
 
 
