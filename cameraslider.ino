@@ -1,4 +1,3 @@
-
 #include <TimerOne.h>      // used for interrupt
 #include <avr/eeprom.h>    // used to save settings to non volitile memory
 
@@ -765,6 +764,7 @@ void showMenu()
     Serial.print("\nP = Show Program");
     Serial.print("\nC = Clear Program");
     Serial.print("\nL = Edit Line.  Format: L Line# Dest Speed Accel)  Ex: L 0 2000 3000 1500");
+    Serial.print("\n      First line number is 0");
     Serial.print("\n      Use 0 for destination and speed to indicate end of program");
     Serial.print("\n      Use 0 for speed to indicate a pause.  Dest is pause in milliseconds");
     Serial.print("\nR = Set Max Speed");
